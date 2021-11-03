@@ -9,7 +9,7 @@ This desktop application is compatable with almost every OS as the app has been 
 
 The app checks the price every 10 minutes. You can change the time by going to `/app/assets/renderer.js` and change the number of milliseconds on line number 120. 
 
-The application does not use any DB connections, but adopts Web Storage API to safe the data locally. You can delete an item by clicking to the button next to it.
+The application does not use any DB connections, but adopts Web Storage API to save the data locally. You can delete an item by clicking to the button next to it.
 
 Note: You have to open the app manually every time it is closed.
 
@@ -62,4 +62,4 @@ To update node, you can visit [official Node.js website](https://nodejs.org/).
 
 ## To bundle the electron app
 
-  Follow the instructions provided [here](https://github.com/electron/electron-packager)
+  Follow the instructions provided [here](https://github.com/electron/electron-packager).
