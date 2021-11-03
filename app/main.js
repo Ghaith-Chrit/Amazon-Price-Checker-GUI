@@ -28,18 +28,6 @@ app.on('ready', () => {
       submenu: [
         process.platform === 'darwin' ? { role: 'close' } : { role: 'quit' }
       ]
-    },
-    {
-      label: 'Edit',
-      submenu: [
-        { label: 'Delete All', click: () => localStorage.clear() }
-      ]
-    },
-    {
-      label: 'Help',
-      submenu: [
-        { label: 'Learn More', click: () => console.log('To be Implemented') }
-      ]
     }
   ]);
   Menu.setApplicationMenu(contextMenuMainWindow);
